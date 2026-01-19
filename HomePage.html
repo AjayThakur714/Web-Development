@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            justify-content: space-around;
+
+        }
+        .first{
+            width: 300px;
+            display: flex;
+            justify-content: space-around;
+
+        }
+        @media  screen and (max-width: 480px ){
+            div{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+        
+        .first{
+            display: flex;
+            /* flex-wrap: wrap; */
+            flex-direction: column;
+
+        }
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+
+        <div id="first">
+            <a>Navbar</a>
+            <a>Home</a>
+            <a>Link</a>
+            <a>DropDown</a>
+        </div>
+    <div>
+    <input type="text" placeholder="search">
+    <button>Serach</button>
+    </div>
+
+    </div>
+</body>
+</html>
